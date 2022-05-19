@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "gamma-app",
-    "slug": "gamma-app",
+    "name": "GammaApp",
+    "slug": "GammaApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#F8F8FA"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,13 +21,14 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "gammascore.gammaapp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
     }
   }
 }
